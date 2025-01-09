@@ -32,7 +32,7 @@ const Mail = (props: MailProps) => {
             <Heading>お申し込みいただき、ありがとうございます</Heading>
             <Text>高専カンファレンスin首都では、参加者向けDiscordサーバーがあります。</Text>
             <Text>ぜひご参加ください。</Text>
-            <Link href="https://discord.gg/kosenconf-syuto" style={{
+            <Link href="https://discord.gg/SaRuzjHaqu" style={{
                 color: '#fff',
                 backgroundColor: '#1155cc',
                 padding: '10px 20px',

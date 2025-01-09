@@ -18,7 +18,7 @@ const Mail = (props) => {
         react_1.default.createElement(components_1.Heading, null, "\u304A\u7533\u3057\u8FBC\u307F\u3044\u305F\u3060\u304D\u3001\u3042\u308A\u304C\u3068\u3046\u3054\u3056\u3044\u307E\u3059"),
         react_1.default.createElement(components_1.Text, null, "\u9AD8\u5C02\u30AB\u30F3\u30D5\u30A1\u30EC\u30F3\u30B9in\u9996\u90FD\u3067\u306F\u3001\u53C2\u52A0\u8005\u5411\u3051Discord\u30B5\u30FC\u30D0\u30FC\u304C\u3042\u308A\u307E\u3059\u3002"),
         react_1.default.createElement(components_1.Text, null, "\u305C\u3072\u3054\u53C2\u52A0\u304F\u3060\u3055\u3044\u3002"),
-        react_1.default.createElement(components_1.Link, { href: "https://discord.gg/kosenconf-syuto", style: {
+        react_1.default.createElement(components_1.Link, { href: "https://discord.gg/SaRuzjHaqu", style: {
                 color: '#fff',
                 backgroundColor: '#1155cc',
                 padding: '10px 20px',
