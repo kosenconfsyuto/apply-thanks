@@ -18,7 +18,7 @@ const mail_1 = __importDefault(require("./mail"));
 const resend_1 = require("./utils/resend");
 require('dotenv').config();
 const app = (0, express_1.default)();
-const port = 3002;
+const PORT = process.env.PORT || 3002;
 app.use(express_1.default.json());
 app.post('/notice-event', (req, res) => __awaiter(void 0, void 0, void 0, function* () {
     const { ticketInfo, userInfo, eventInfo } = req.body;
@@ -50,6 +50,6 @@ app.post('/notice-event', (req, res) => __awaiter(void 0, void 0, void 0, functi
     }
     res.status(200).send('Notification sent successfully');
 }));
-app.listen(port, () => {
-    console.log(`Server is running on http://localhost:${port}`);
+app.listen(PORT, () => {
+    console.log(`Server is running on http://localhost:${PORT}`);
 });

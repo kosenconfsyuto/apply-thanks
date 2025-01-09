@@ -6,7 +6,7 @@ import { resend } from './utils/resend';
 require('dotenv').config();
 
 const app = express();
-const port = 3002;
+const PORT = process.env.PORT || 3002;
 
 app.use(express.json());
 
@@ -43,6 +43,6 @@ app.post('/notice-event', async (req:any, res:any) => {
     res.status(200).send('Notification sent successfully');
 });
 
-app.listen(port, () => {
-    console.log(`Server is running on http://localhost:${port}`);
+app.listen(PORT, () => {
+    console.log(`Server is running on http://localhost:${PORT}`);
 });
